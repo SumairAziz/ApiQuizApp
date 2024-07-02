@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w-[98.5vw] h-[100vh] flex lg:items-center justify-center bg-gray-600">
+    <div
+        class="app flex lg:w-[40vw] h-fit flex-col items-center justify-center bg-white border-2 border-black rounded-lg p-7 gap-5">
+        <!-- heading -->
+        <h1 class="text-3xl font-semibold border-b-2 w-full  pb-7 border-gray-600 text-gray-800">Simple Quiz</h1>
+        <div class="quiz flex flex-col w-full justify-center items-center">
+            <!-- question  -->
+            <h2 id="question" class="font-medium w-full text-lg pb-3 text-gray-800">Question goes here</h2>
+            <!-- This div contains options -->
+            <div id="answer-buttons" class="flex w-full flex-col gap-4">
+            </div>
+            <!-- contains next and termination buttons -->
+            <div class="flex justify-between w-full">
+                <button id="terminate"
+                    class="border-2 border-gray-800 w-fit px-10 py-1 mt-5 rounded-md hover:bg-gray-900 hover:text-white transition-all duration-200 bg-gray-700  text-white">Terminate</button>
+                <button id="next-btn"
+                    class="border-2 border-gray-800 w-fit px-10 py-1 mt-5 rounded-md hover:bg-gray-900 hover:text-white transition-all duration-200 bg-gray-700  text-white">Next</button>
+                <button id="go-again"
+                    class="border-2 border-gray-800 w-fit px-10 py-1 mt-5 rounded-md hover:bg-gray-900 hover:text-white transition-all duration-200 bg-gray-700  text-white">Go again</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script2.js"></script>
+
+</html>
